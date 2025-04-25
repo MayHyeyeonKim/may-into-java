@@ -1,0 +1,35 @@
+# 🔧 Build artifacts
+*.class
+*.jar
+*.war
+*.ear
+
+# 🗃 IDE settings
+.vscode/
+.idea/
+*.iml
+
+# 🚫 OS-specific files
+.DS_Store
+Thumbs.db
+
+# 📁 Build directories
+/bin/
+/build/
+/out/
+/target/
+
+# 🧪 Test reports
+/test-output/
+
+# 📦 Package manager folders (Gradle, Maven)
+.gradle/
+/mvnw
+.mvn/
+!gradle-wrapper.jar
+
+# 🔐 Sensitive or environment-specific files
+*.env
+*.key
+*.pem
+*.log
